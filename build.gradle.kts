@@ -31,6 +31,7 @@ dependencies {
   implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
   implementation("ch.qos.logback:logback-classic:1.4.5")
   implementation("io.vertx:vertx-core")
+  implementation("io.vertx:vertx-web-client")
   compileOnly("org.projectlombok:lombok:1.18.26")
   testImplementation("io.vertx:vertx-junit5")
   testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
